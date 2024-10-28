@@ -17,6 +17,6 @@ export default defineConfig({
     skipInline: false,
     drafts: true
   },
-  site: 'https://lexingtonthemes.com',
+  site: 'https://engagementamp.com',
   integrations: [tailwind(), sitemap(), mdx(), devtoolBreakpoints()]
 });
