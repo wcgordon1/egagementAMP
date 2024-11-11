@@ -4,11 +4,11 @@ const pricingPlans = [
   {
     id: "starter",
     name: "Starter",
-    monthlyPrice: "20,000",
+    monthlyPrice: "Let's Talk",
     annualPrice: "TBD",
     image: "/images/blob3.svg",
     description:
-      "This is the Everything Plan. I'm working on this like my life depends on it.",
+      "This is the Everything Plan. We are working on this like our lives depend on it. Because your business depends on it.",
     features: [
     {
         highlightText: "Brand Deep Dive ",
@@ -80,11 +80,11 @@ const pricingPlans = [
                 <span x-show="annual">{plan.annualPrice}</span>
               </span>
               <span class="text-base font-medium tracking-wide">
-                /6 months
+                <!-- comment out monthly price -->
                 <span
                   x-show="annual"
                   style="display: none;">
-                  (billed annually)
+                  <!-- comment out annual price -->
                 </span>
               </span>
             </div>
