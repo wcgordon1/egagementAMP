@@ -8,7 +8,7 @@ const { title, url, description, pubDate, author, image } = Astro.props;
   class="duration-200 border-2 border-black shadow-large focus:translate-y-1 focus:shadow-none shadow-black rounded-2xl overflow-hidden"
 >
   <div class="flex flex-col h-full divide-y-2 divide-black">
-    <img class="w-full lg:h-96 object-cover" src={image} alt={title} />
+    <img class="w-full lg:h-96 object-contain" src={image} alt={title} />
 
     <div class="flex flex-1 flex-col justify-between p-8 lg:p-20 bg-white">
       <div class="flex-1">
